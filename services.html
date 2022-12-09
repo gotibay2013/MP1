@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>services</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/4b623ce5ec.js" crossorigin="anonymous"></script>
+    
+
+    <style>
+        h2{
+            color: #701010;
+            font-weight: 1000;
+            font-size: xx-large;
+            font-style: normal;
+            font-family: Lucida Sans;
+        }
+    
+        /*Change iframe dimension*/
+        iframe{
+            display: block;
+            margin: 1em auto;
+            width: 50%;
+            height: calc(.5625 * 50vw);
+        }
+        
+       /*Start of Footer*/
+    footer{
+        background-color: #808080;
+        padding: 1%;
+    }
+      
+    .contact-details p{
+        color: #f7f0f0;
+        font-weight: 100;
+        font-size: 0.8em;
+        font-style: normal;
+        font-family: Arial;
+        letter-spacing: 0.1em; 
+    }
+      
+    .social-media{
+        list-style: none;
+        padding: 0px;
+    }
+      
+    .social-media li{
+        display: inline-block;
+    }
+      
+    /*Change icons circle size and color here*/
+    .social-media .fa {
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        color: #bdb6b6;
+        margin-right: 5px;
+    }
+      
+      .social-media .fa-facebook,.social-media .fa-facebook-square{background-color:#fff;}
+      .social-media .fa-google-plus,.social-media .fa-google-plus-square{background-color:#fff;}
+      .social-media .fa-instagram{background-color:#fff;}
+      .social-media .fa-linkedin,.social-media .fa-linkedin-square{background-color:#fff;}
+      .social-media .fa-pinterest,.social-media .fa-pinterest-square{background-color:#fff;}
+      .social-media .fa-skype{background-color:#fff;}
+      .social-media .fa-stack-exchange{background-color:#fff;}
+      .social-media .fa-twitter,.social-media .fa-twitter-square{background-color:#fff;}
+      .social-media .fa-youtube,.social-media .fa-youtube-play,.social-media .fa-youtube-square{background-color:#fff;}
+      
+    /*End of Footer*/
+      
+    /*Button*/
+      
+      
+      .btn-custom{
+        color: #808080;
+        font-family: Lato, sans-serif;
+        border: 1px solid #808080;
+        padding: 15px 30px;
+        font-weight: 300;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+      }
+      .btn-custom:hover{
+        color: #fff;
+        background-color:#9b9999;
+        text-decoration: none;
+      }
+      
+      .btn-custom-white{
+        color: #fff;
+        font-family: Lato, sans-serif;
+        border: 1px solid #fff;
+        background-color: transparent;
+      }
+      
+      .btn-custom-white:hover{
+        color: #fff;
+        font-family: arial;
+        background-color: #bdb6b6;
+      }
+      
+      button{
+        border: none;
+     }
+    
+         
+    </style>
+</head>
+
+<body>
+    
+    <!-------------- NAVBAR ONLY-------------------->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.gif" alt="logo" width="300" height="100" class="d-inline-block align-top">     
+            </a>
+            <button 
+            	class="navbar-toggler" 
+            	type="button" 
+            	data-bs-toggle="collapse" 
+            	data-bs-target="#toggleMobileMenu" 
+            	aria-controls="toggleMobileMenu" 
+            	aria-expanded="false" 
+            	aria-label="Toggle navigation"
+            ><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-scroll data-options='{"easing":"easeOutCubic"}' href="#ContactUs">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+<br>
+    
+<!----------------SERVICES ONLY-------------------->
+<div class="container">  
+        <h2 class="text-center">Our Services</h2>
+    </div>
+<br>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Horizontal Directional Drilling</h2>
+                <p class="text-secondary" style="text-align:justify;">Horizontal Directional Drilling (HDD) is a construction technique whereby a tunnel is drilled under a waterway or other designated area, and a pipeline or other utility is pulled through the drilled underground tunnel. The underground tunnel follows an arc line from the entry point, down under the special crossing area, and then resurfaces on the opposite side. Using advanced technology and highly trained technicians, a drill head guides the drilling pipe electronically to ensure the angle, depth, and exit point adhere to carefully designed engineering plans.
+                <br>Throughout the drilling process, the tunnel is kept open and lubricated by circulating a watery mud-slurry mixture, typically composed of about 95 percent water and 5 percent bentonite clay – a natural, non-toxic substance. The drilling mud also helps coat the walls of the tunnel and remove drill cuttings. When the tunnel is 12 inches wider than the diameter of the pipe going through it, the welded pipeline segment can be pulled through the underground arched tunnel from one end to the other end. These pipeline segments are typically made of thicker steel and have a protective first layer of coating to prevent corrosion and a second abrasion-resistant coating to protect the pipe during the pull through the tunnel. The two ends of the pipeline segment can then be welded together with the rest of that pipeline system.</p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/_FqztgyrAWU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Guided Auger Boring / Pipe Steering System </h2>
+                <p class="text-secondary" style="text-align:justify;">Pilot Tube Guided Auger Boring (PTGAB) is one of the most popular and cost-effective trenchless method to accurately install steel casing for underground utilities, waterlines, and sanitary sewers.  This method combines the pinpoint accuracy of the pilot tube installation to control line and grade with the excavation process of horizontal auger boring.</p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/pebKvJqfBBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Microtunnelling</h2>
+                <p class="text-secondary" style="text-align:justify;">Microtunneling is a trenchless construction method used to install pipelines beneath highways, railroads, runways, harbors, rivers, and environmentally sensitive areas. Microtunnels are installed using a remote-controlled drilling and pipe-jacking system. The drilling system provides continuous support to the excavation face by applying mechanical or fluid pressure to balance groundwater and earth pressures.
+                <br>Support at the excavation face is a key feature of microtunneling, distinguishing it from traditional open-shield pipe-jacking and therefore is a preferred method when tunneling below the groundwater table and in caving soils.</p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/eUtM93ZjRjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Pipe Ramming</h2>
+                <p class="text-secondary" style="text-align:justify;">Pipe ramming is a trenchless method of pipeline installation that drives a casing or pipe through the ground using a percussive hammer. The hammer is attached to an open-ended casing, using an adapter and the percussive action of the hammer drives the casing into the ground. The spoil within the casing is removed when the casing is fully driven into place.
+                <br>The pipe ramming method works on the principle of displacement and causes little to no ground slump making it ideal for places where ground loss is expected. It is preferred for installations under railroads, embankments, roads, and landscapes as it is cost-efficient, time-saving, and non-disruptive.
+                <br>Pipe ramming can be used in a wide variety of soil conditions and can be used for horizontal, angled, or vertical installations. Sometimes, contractors use pipe ramming in conjunction with other trenchless methods such as when a pipe becomes stuck in a horizontal directional drilling (HDD) operation. In such cases, pipe ramming can be used to dislodge the pipe for the HDD process to continue.
+                <br>However, pipe ramming lacks the precision of sonde-guided drilling or even microtunneling. It is faster than the pipe jacking method but matches the speed of auger boring or horizontal directional drilling operations. It is recommended to use steel casing pipe when using the trenchless method of pipe ramming.
+                <br>Pipe ramming can also be used in harder soil conditions, but it is difficult and time-consuming. When used in the rocky ground it will require the use of a pneumatic tool to punch a pilot hole before the pipe can be rammed. However, since pipe ramming utilizes limited equipment it can be performed in places that are space-constrained and cannot support heavy equipment.</p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/9mTUM2fU4cI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Sheet Piling</h2>
+                <p class="text-secondary" style="text-align:justify;">Sheet piles are, as the name suggests, narrow sheets of material, usually designed with an angular profile and with interlocking edges, so that multiple sheet piles can be fitted together to form a structurally sound and often watertight wall or barrier.
+                <br>They are usually made of steel but wood can also be used, as can precast reinforced concrete and even certain types of plastic. Steel sheet piles are often manufactured using sustainable recycled metals and, where soil chemistry requires it, they are sprayed with an anti-corrosive coating.
+                <br>Steel sheet piles are the most commonly used type, as they are very versatile. They can be welded or bolted together vertically to provide a greater length or depth, if required. They are very resistant to the pressures caused by driving and provide the best strength option, compared to their weight.</p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/Jz-diy0NaFI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                <hr class="bg-dark mb-2">
+                <h2 class="text-align-left">Declogging</h2>
+                <p class="text-secondary" style="text-align:justify;">HDD Machine combined with special tooling (reamer and scraper) is an effective Declogging Method to restore clogged drainage pipes.
+                </p>                
+                <hr class="bg-dark mb-2">
+                </div>
+            </div>
+        </div>
+        <iframe src="https://www.youtube.com/embed/G2gSF_rl4zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            
+   
+<br> <br>
+<!-------------- FOOTER ONLY-------------------->
+<div id="ContactUs" class="container mt520">
+    <footer class="pt10 pl50 pr50 pb100">
+      <div class="row mt40">
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4 class="white">Email Us</h1>
+                <form>
+                <div class="form-group">
+                <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+                </div><br>
+                <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                </div><br>
+                <div class="form-group">
+                <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                </div><br>
+                <button type="submit" class="btn-custom-white">Submit</button>
+                </form>
+          </div>
+  
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4 class="white">Get in touch</h1>
+                <div class="contact-details">
+                    <p>Head Office:</p>
+                    <p>10 Tagdalit Street Brgy. Manresa Quezon City, Philippines</p>
+                    <p>Satellite Office:</p>
+                    <p>1 Orion Street, Sterling Compound, Brgy. Iba, Meycauayan, Bulacan Philippines</p>
+                    <p><br>Phone: +63 2 8330 2118 / +63 917 305 2797 </p>
+                    <p><br>E-Mail: <a href="#">dari.ttic@gmail.com</a></p>
+                </div>
+          </div>
+  
+          <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <h4 class="white">Social Media</h1>
+                <ul class="social-media">
+                    <li> <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> </li>
+                    <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></li></a></li>
+                    <li><a href="https://workspace.google.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://www.skype.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-skype"></i></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+  
+                <h4 class="white"><br><br>Newsletter</h1>
+                <form>
+                <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+                </div><br>
+                <button type="submit" class="btn-custom-white">Submit</button>
+                </form>
+          </div>
+      </div>
+    </footer>
+  </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4b623ce5ec.js" crossorigin="anonymous"></script>
+  
+<style>
+    h2{
+        color: #701018;
+        font-weight: 1000;
+        font-size: xx-large;
+        font-style: normal;
+        font-family: Lucida Sans;
+    }
+       
+    /*Start of Footer*/
+    footer{
+        background-color: #808080;
+        padding: 1%;
+    }
+      
+    .contact-details p{
+        color: #f7f0f0;
+        font-weight: 100;
+        font-size: 0.8em;
+        font-style: normal;
+        font-family: Arial;
+        letter-spacing: 0.1em; 
+    }
+      
+    .social-media{
+        list-style: none;
+        padding: 0px;
+    }
+      
+    .social-media li{
+        display: inline-block;
+    }
+      
+    /*Change icons circle size and color here*/
+    .social-media .fa {
+        border-radius: 50%;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        color: #bdb6b6;
+        margin-right: 5px;
+    }
+      
+      .social-media .fa-facebook,.social-media .fa-facebook-square{background-color:#fff;}
+      .social-media .fa-google-plus,.social-media .fa-google-plus-square{background-color:#fff;}
+      .social-media .fa-instagram{background-color:#fff;}
+      .social-media .fa-linkedin,.social-media .fa-linkedin-square{background-color:#fff;}
+      .social-media .fa-pinterest,.social-media .fa-pinterest-square{background-color:#fff;}
+      .social-media .fa-skype{background-color:#fff;}
+      .social-media .fa-stack-exchange{background-color:#fff;}
+      .social-media .fa-twitter,.social-media .fa-twitter-square{background-color:#fff;}
+      .social-media .fa-youtube,.social-media .fa-youtube-play,.social-media .fa-youtube-square{background-color:#fff;}
+      
+    /*End of Footer*/
+      
+    /*Button*/
+      
+      
+      .btn-custom{
+        color: #808080;
+        font-family: Lato, sans-serif;
+        border: 1px solid #808080;
+        padding: 15px 30px;
+        font-weight: 300;
+        font-size: 0.7em;
+        letter-spacing: 0.1em;
+      }
+      .btn-custom:hover{
+        color: #fff;
+        background-color:#9b9999;
+        text-decoration: none;
+      }
+      
+      .btn-custom-white{
+        color: #fff;
+        font-family: Lato, sans-serif;
+        border: 1px solid #fff;
+        background-color: transparent;
+      }
+      
+      .btn-custom-white:hover{
+        color: #fff;
+        font-family: arial;
+        background-color: #bdb6b6;
+      }
+      
+      button{
+        border: none;
+     }
+
+     
+</style>
+   
+</head>
+
+
+<body>
+    
+    <!-------------- NAVBAR ONLY-------------------->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="logo.gif" alt="logo" width="300" height="100" class="d-inline-block align-top">     
+            </a>
+            <button 
+            	class="navbar-toggler" 
+            	type="button" 
+            	data-bs-toggle="collapse" 
+            	data-bs-target="#toggleMobileMenu" 
+            	aria-controls="toggleMobileMenu" 
+            	aria-expanded="false" 
+            	aria-label="Toggle navigation"
+            ><span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="aboutus.html">About Us</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li>
+                      <a class="nav-link" href="gallery.html">Gallery</a>
+                  </li>
+                    <li>
+                      <a class="nav-link" data-scroll data-options='{"easing":"easeOutCubic"}' href="#ContactUs">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+      </div>
+      
+    <!-------------- CAROUSEL ONLY-------------------->
+    <div class="container max-height d-flex align-items-center">
+      <div 
+        id="carouselExampleCaptions" 
+        class="carousel slide"
+        data-bs-interval="5000"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-current="true"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-current="true"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-current="true"
+            aria-label="Slide 4"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="4"
+            aria-current="true"
+            aria-label="Slide 5"
+          ></button>
+      
+      </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pictures/index/slides/tm1.jpg" class="d-block w-100" alt="slide1"/>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="pictures/index/slides/drillheads.jpg" class="d-block w-100" alt="slide2"/>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="pictures/index/slides/hdd.jpg" class="d-block w-100" alt="slide3"/>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="pictures/index/slides/tt.jpg" class="d-block w-100" alt="slide4"/>
+          </div>
+          
+          <div class="carousel-item">
+            <img src="pictures/index/slides/rods.jpg" class="d-block w-100" alt="slide5"/>
+          </div>
+      </div>
+        
+        <button 
+          class="carousel-control-prev" 
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button 
+          class="carousel-control-next" 
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+
+<br>
+<!-------------- CARDS ONLY-------------------->
+      <div class="container">
+        <div class="row g-3">
+          <hr class="bg-dark mb-2">
+          <h2 class="text-center mb-4">Our Drilling Machines</h2>
+          <hr class="bg-dark mb-2"> 
+          <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="pictures/index/machines/MT.jpg" class="card-img-top" alt="tunnelmachine">
+                    <div class="card-body">
+                        <h4 class="card-title text-center"><strong>Microtunnelling Machine<br>(AVN250)</strong></h4><br>
+                        <a href="https://www.herrenknecht.com/en/products/productdetail/avn-machine/" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="pictures/index/machines/PBA40.png" class="card-img-top" alt="tbmmachine">
+                    <div class="card-body">
+                        <h4 class="card-title text-center"><strong>Guided Auger Boring Machine (PBA-40)</strong></h4><br>
+                        <a href="https://construction.pwa.co.th/Trenchless/MTS/Brochure_Thrust%20Boring%20Technology_deu_en.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card">
+                    <img src="pictures/index/machines/PBA200.png" class="card-img-top" alt="tbmmachine2">
+                    <div class="card-body">
+                        <h4 class="card-title text-center"><strong>Guided Auger Boring Machine (PBA-200)</strong></h4><br>
+                        <a href="https://construction.pwa.co.th/Trenchless/MTS/Brochure_Thrust%20Boring%20Technology_deu_en.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<br>
+    <!-------------- CARDS 2 ONLY-------------------->
+    <div class="container">
+      <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="pictures/index/machines/MTS.jpg" class="card-img-top" alt="mtmachine">
+                  <div class="card-body">
+                      <h4 class="card-title text-center"><strong>GABM Pipe Steering<br>(RS-HV600)</strong></h4><br>
+                      
+                      <a href="https://construction.pwa.co.th/Trenchless/MTS/Brochure_Thrust%20Boring%20Technology_deu_en.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="pictures/index/machines/mala.jpeg" class="card-img-top" alt="mala1">
+                  <div class="card-body">
+                      <h4 class="card-title text-center"><strong>Ground Penetrating Radar<br>(Mala)</strong></h5><br>
+                      
+                      <a href="https://www.malagpr.com.au/uploads/3/7/9/4/37942849/mala_gpr_australia_-_easylocator_widerange_leaflet.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+              <div class="card">
+                  <img src="pictures/index/machines/PRGigant.jpg" class="card-img-top" alt="gigant1">
+                  <div class="card-body">
+                      <h4 class="card-title text-center"><strong>Pipe Ramming<br>(Gigant)</strong></h4><br>
+                      
+                      <a href="https://www.tttechnologies.com/download/manuals/grundoram-manual.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+<br>
+    <!-------------- CARDS 3 ONLY-------------------->
+          <div class="container">
+            <div class="row g-3">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="pictures/index/machines/PRGoliath.jpg" class="card-img-top" alt="goliath">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"><strong>Pipe Ramming<br>(Goliath)</strong></strong></h4><br>
+                            <a href="https://www.tttechnologies.com/download/manuals/grundoram-manual.pdf" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="pictures/index/machines/DD10.jpg" class="card-img-top" alt="dd101">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"><strong>Horizontal Directional Drilling (DD-10)</strong></h4><br>
+                            <a href="https://www.hddbroker.com/en/resources/equipmentlibrary/viewmodel.php?id=960" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="pictures/index/machines/DD5.jpg" class="card-img-top" alt="dd51">
+                        <div class="card-body">
+                            <h4 class="card-title"><strong>Horizontal Directional Drilling (DD-5)</strong></h4><br>                         
+                            <a href="https://www.hddbroker.com/en/resources/equipmentlibrary/viewmodel.php?id=194" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<br>
+
+<!-------------- CARDS 4 ONLY-------------------->
+<div class="container">
+  <div class="row g-3">
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="pictures/index/machines/DD4.jpg" class="card-img-top" alt="dd41">
+              <div class="card-body">
+                  <h4 class="card-title text-center"><strong>Horizontal Directional Drilling (DD-4)</strong></h4><br>
+                  <a href="https://www.hddbroker.com/en/resources/equipmentlibrary/viewmodel.php?id=74" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="pictures/index/machines/D6.jpg" class="card-img-top" alt="d61">
+              <div class="card-body">
+                  <h4 class="card-title text-center"><strong>Horizontal Directional Drilling (D6-6)</strong></h4><br>
+                  <a href="https://www.hddbroker.com/en/resources/equipmentlibrary/viewmodel.php?id=950" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+              <img src="pictures/index/machines/xcmg.jpg" class="card-img-top" alt="xcmg1k">
+              <div class="card-body">
+                  <h4 class="card-title text-center"><strong>Horizontal Directional Drilling (XCMG)</strong></h4><br>
+                  <a href="https://www.machmall.com/item-detail/XCMG-XZ320E-horizontal-directional-drill-hdd-929.html" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">See Specifications</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<br>
+<br>
+
+<!-------------- FOOTER ONLY-------------------->
+<div id="ContactUs" class="container mt520">
+  <footer class="pt10 pl50 pr50 pb100">
+    <div class="row mt40">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <h4 class="white">Email Us</h1>
+              <form>
+              <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputName" placeholder="Name">
+              </div><br>
+              <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+              </div><br>
+              <div class="form-group">
+              <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+              </div><br>
+              <button type="submit" class="btn-custom-white">Submit</button>
+              </form>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <h4 class="white">Get in touch</h1>
+              <div class="contact-details">
+                  <p>Head Office:</p>
+                  <p>10 Tagdalit Street Brgy. Manresa Quezon City, Philippines</p>
+                  <p>Satellite Office:</p>
+                  <p>1 Orion Street, Sterling Compound, Brgy. Iba, Meycauayan, Bulacan Philippines</p>
+                  <p><br>Phone: +63 2 8330 2118 / +63 917 305 2797 </p>
+                  <p><br>E-Mail: <a href="#">dari.ttic@gmail.com</a></p>
+              </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <h4 class="white">Social Media</h1>
+              <ul class="social-media">
+                  <li> <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a> </li>
+                  <li><a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></li></a></li>
+                  <li><a href="https://workspace.google.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="https://www.skype.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-skype"></i></a></li>
+                  <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.pinterest.com" target="_blank" rel="noopener noreferrer"><i class="fa fa-pinterest"></i></a></li>
+              </ul>
+
+              <h4 class="white"><br><br>Newsletter</h1>
+              <form>
+              <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email">
+              </div><br>
+              <button type="submit" class="btn-custom-white">Submit</button>
+              </form>
+        </div>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
